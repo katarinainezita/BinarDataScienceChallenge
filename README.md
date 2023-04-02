@@ -500,8 +500,11 @@ new_df.total_word.hist()
 
 didapatkan hasil : 
 
-ss total_word
-ss total_char
+Total Kata
+![App Screenshot](https://github.com/katarinainezita/BinarDataScienceChallenge/blob/main/img/total_char.png)
+
+Total Karakter
+![App Screenshot](https://github.com/katarinainezita/BinarDataScienceChallenge/blob/main/img/total_word.png)
 
 y. Mencari kata yang sering muncul
 
@@ -518,7 +521,7 @@ plt.show()
 
 didapatkan hasil :
 
-ss word_cloud
+![App Screenshot](https://github.com/katarinainezita/BinarDataScienceChallenge/blob/main/img/word_cloud.png)
 
 z. Mencari korelasi antara total karakter dan total kata
 
@@ -528,4 +531,4 @@ new_df.plot(x='total_word', y='total_char', kind='scatter')
 
 didapatkan hasil :
 
-ss scatter
+![App Screenshot](https://github.com/katarinainezita/BinarDataScienceChallenge/blob/main/img/scatter.png)
