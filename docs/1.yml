@@ -1,0 +1,16 @@
+tags:
+  - name: Upload File
+get:
+  description: Upload File Berupa CSV
+parameters : 
+  - name : file
+    in : formData
+    requires : True
+    type  : file
+responses:
+    "200":
+      description: Successfull response
+    "400":
+      description: Bad Request
+    "500":
+      description: Internal Server Error  
