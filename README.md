@@ -501,9 +501,11 @@ new_df.total_word.hist()
 didapatkan hasil : 
 
 Total Kata
+
 ![App Screenshot](https://github.com/katarinainezita/BinarDataScienceChallenge/blob/main/img/total_char.png)
 
 Total Karakter
+
 ![App Screenshot](https://github.com/katarinainezita/BinarDataScienceChallenge/blob/main/img/total_word.png)
 
 y. Mencari kata yang sering muncul
