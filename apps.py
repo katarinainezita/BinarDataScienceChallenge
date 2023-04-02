@@ -49,7 +49,6 @@ swagger_config = {
 }
 swagger = Swagger(app=app, config = swagger_config, template = swagger_template)
 
-# conn = sqlite3.connect('database.db')
 
 @swag_from("docs/1.yml", methods = ['POST'])
 @app.route('/uploadFile', methods = ['POST'])
